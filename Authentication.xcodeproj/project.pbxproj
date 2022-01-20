@@ -14,6 +14,9 @@
 		8B471C8C2798974000517E36 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471C8B2798974000517E36 /* AuthenticationTests.swift */; };
 		8B471C962798974000517E36 /* AuthenticationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471C952798974000517E36 /* AuthenticationUITests.swift */; };
 		8B471C982798974000517E36 /* AuthenticationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471C972798974000517E36 /* AuthenticationUITestsLaunchTests.swift */; };
+		8B471CA627989DCF00517E36 /* OAuth2PKCEAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471CA527989DCE00517E36 /* OAuth2PKCEAuthenticator.swift */; };
+		8B471CA82799AEBC00517E36 /* OAuth2PKCEParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471CA72799AEBC00517E36 /* OAuth2PKCEParameters.swift */; };
+		8B471CAA2799F83400517E36 /* OAuth2PKCEAuthenticatorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B471CA92799F83400517E36 /* OAuth2PKCEAuthenticatorError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		8B471C912798974000517E36 /* AuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B471C952798974000517E36 /* AuthenticationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUITests.swift; sourceTree = "<group>"; };
 		8B471C972798974000517E36 /* AuthenticationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B471CA527989DCE00517E36 /* OAuth2PKCEAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2PKCEAuthenticator.swift; sourceTree = "<group>"; };
+		8B471CA72799AEBC00517E36 /* OAuth2PKCEParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2PKCEParameters.swift; sourceTree = "<group>"; };
+		8B471CA92799F83400517E36 /* OAuth2PKCEAuthenticatorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuth2PKCEAuthenticatorError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8B471C7A2798973E00517E36 /* AuthenticationApp.swift */,
+				8B471CA427989DA500517E36 /* Authentication */,
 				8B471C7C2798973E00517E36 /* ContentView.swift */,
 				8B471C7E2798974000517E36 /* Assets.xcassets */,
 				8B471C802798974000517E36 /* Preview Content */,
@@ -125,6 +132,16 @@
 				8B471C972798974000517E36 /* AuthenticationUITestsLaunchTests.swift */,
 			);
 			path = AuthenticationUITests;
+			sourceTree = "<group>";
+		};
+		8B471CA427989DA500517E36 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8B471CA527989DCE00517E36 /* OAuth2PKCEAuthenticator.swift */,
+				8B471CA72799AEBC00517E36 /* OAuth2PKCEParameters.swift */,
+				8B471CA92799F83400517E36 /* OAuth2PKCEAuthenticatorError.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +276,9 @@
 			files = (
 				8B471C7D2798973E00517E36 /* ContentView.swift in Sources */,
 				8B471C7B2798973E00517E36 /* AuthenticationApp.swift in Sources */,
+				8B471CAA2799F83400517E36 /* OAuth2PKCEAuthenticatorError.swift in Sources */,
+				8B471CA627989DCF00517E36 /* OAuth2PKCEAuthenticator.swift in Sources */,
+				8B471CA82799AEBC00517E36 /* OAuth2PKCEParameters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
